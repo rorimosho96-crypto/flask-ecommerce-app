@@ -7,6 +7,7 @@ app = Flask(__name__)
 app.secret_key = "supersecretkey"
 
 import os
+import stripe
 stripe.api_key = os.environ.get("STRIPE_SECERET_KEY")
 
 def get_products():
@@ -128,5 +129,9 @@ def success():
     session.pop("cart", None)   # clears cart after payment
     return render_template("success.html")
 
-if __name__ == '__main__':
-    app.run(debug=True)
+    import os
+
+
+if __name__ == "__main__":
+   port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port) 

@@ -1,0 +1,5 @@
+flask_session/
+products.db
+__pycache__/
+*.pyc
+.env

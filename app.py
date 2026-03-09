@@ -129,7 +129,7 @@ def success():
     session.pop("cart", None)   # clears cart after payment
     return render_template("success.html")
 
-    import os
+import os
 
 
 if __name__ == "__main__":

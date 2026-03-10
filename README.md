@@ -52,7 +52,3 @@ flask-ecommerce-app/
 │   └── css/style.css
 │
 └── README.md             # Project documentation
-
----
-
-## 📂 Project Structure

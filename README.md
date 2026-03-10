@@ -28,6 +28,31 @@ This project demonstrates backend development, database integration, session han
 - Stripe API
 - Git & GitHub
 
+## 🌐 Live Demo
+
+https://flask-ecommerce-app-i6ax.onrender.com
+
+---
+
+## 📂 Project Structure
+
+flask-ecommerce-app/
+│
+├── app.py                # Main Flask application
+├── init_db.py            # Database initialization script
+├── products.db           # SQLite database
+├── requirements.txt      # Python dependencies
+│
+├── templates/            # HTML templates
+│   ├── index.html
+│   ├── cart.html
+│   └── success.html
+│
+├── static/               # Static files (CSS)
+│   └── css/style.css
+│
+└── README.md             # Project documentation
+
 ---
 
 ## 📂 Project Structure
